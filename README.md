@@ -1,12 +1,14 @@
 # E-Commerce Data Warehouse Project
+## 📖About The Project
+This is a project I built during my data engineering bootcamp. I created a complete data warehouse for e-commerce data using PostgreSQL as the database. I used CSV files as raw data sources and organized everything using the Medallion Architecture (Bronze, Silver, Gold layers).
 
-Hello! This is my end-to-end data warehouse project built with PostgreSQL. It takes raw data and turns it into useful analytics that help businesses make better decisions.
+## 🏗️Project Goals
+* Learn how to design a data warehouse from scratch
+* Practice building ETL pipelines (Extract, Transform, Load)
+* Understand how raw data gets cleaned and turned into useful insights
 
-## 👷What This Project Does
-I built a complete data pipelines:
-* Take messy data from data files (CSV)
-
-## 🏗️Project Overview
-The aim of this project is to build a data warehouse that ingest raw data sources and transform them into structured data for effective decision making.
-* Project key components:
-  * Data Architecture: Implementing the Medallion architecture, Bronze, Silver, Gold layers.
+## Data Architecture
+* Layer Details
+ * 🥉 Bronze Layer: Raw CSV data (customers, products, orders) loaded directly into Postgres
+ * 🥈 Silver Layer: Cleaned and transformed tables (remove duplicates, fix formats, join datasets)
+ * 🥇 Gold Layer: Final curated tables ready for analysis (KPIs like sales trends, customer lifetime value, product performance)
