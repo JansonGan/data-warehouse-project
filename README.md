@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+# SQL Data Warehouse Project
 
 Building a data warehouse with Postgres Server, focusing on end-to-end data workflows.  
 This project covers the design and implementation of ETL processes, data modelling techniques, and analytical queries to support business intelligence.  
