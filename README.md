@@ -8,7 +8,7 @@ This is a project I built during my data engineering bootcamp. I created a compl
 * Understand how raw data gets cleaned and turned into useful insights
 
 ## Data Architecture
-* Layer Details
+Layer Details
  * 🥉 Bronze Layer: Raw CSV data (customers, products, orders) loaded directly into Postgres
  * 🥈 Silver Layer: Cleaned and transformed tables (remove duplicates, fix formats, join datasets)
  * 🥇 Gold Layer: Final curated tables ready for analysis (KPIs like sales trends, customer lifetime value, product performance)
