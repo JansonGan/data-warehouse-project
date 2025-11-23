@@ -7,7 +7,7 @@ This is my personal project I built during my intensive training in junior data 
 * Practice building ETL pipelines (Extract, Transform, Load).
 * Understand how raw data gets cleaned and turned into useful insights.
 
-## Data Architecture
+## 🗄️Data Architecture
 Layer Details
  * 🥉 Bronze Layer: Raw CSV data as-is loaded directly into Postgres.
  * 🥈 Silver Layer: Cleaned and transformed tables (remove duplicates, fix formats, normalization).
