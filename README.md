@@ -1,10 +1,12 @@
-# SQL Data Warehouse Project
+# E-Commerce Data Warehouse Project
 
-Building a data warehouse with Postgres Server, focusing on end-to-end data workflows.  
-This project covers the design and implementation of ETL processes, data modelling techniques, and analytical queries to support business intelligence.  
-The goal is to create a scalable and efficient warehouse that enables structured data storage, transformation, and insights generation.
+Hello! This is my end-to-end data warehouse project built with PostgreSQL. It takes raw data and turns it into useful analytics that help businesses make better decisions.
+
+## 👷What This Project Does
+I built a complete data pipelines:
+* Take messy data from data files (CSV)
 
 ## 🏗️Project Overview
-The aim of this project is to build a data warehouse that takes in raw sources and transform it to a useful data for decision making.
+The aim of this project is to build a data warehouse that ingest raw data sources and transform them into structured data for effective decision making.
 * Project key components:
-  * Data Architecture: Using Medallion architecture, Bronze, Silver, Gold layers.
+  * Data Architecture: Implementing the Medallion architecture, Bronze, Silver, Gold layers.
